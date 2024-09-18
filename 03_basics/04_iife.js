@@ -1,12 +1,12 @@
 // Immediately Invoked Function Expressions (IIFE)
 
-
-(function chai(){
+                         
+(function chai(){                                              //unnamed iife
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})();                                    //to write two iife this semicolon is must
 
-( (name) => {
+( (name) => {                                                  //can be called as named iife 
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh')
 
